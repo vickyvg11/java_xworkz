@@ -3,7 +3,7 @@ package com.xworkz.helmet.items;
 public class HelmetOperator {
 	
 	
-public	String[] head = new String[5];
+public	String[] head = new String[5];//
 private	int count=0;
 	
 	public HelmetOperator() {
@@ -14,7 +14,7 @@ private	int count=0;
 	{
 		//System.out.println("invoked Bike Method");
 		if(brandHelmet!=null && this.count<this.head.length) {
-			this.head[count]=brandHelmet;
+			this.head[count]=brandHelmet;//2
 			count++;
 			System.out.println("Added Brand:"+brandHelmet);
 			

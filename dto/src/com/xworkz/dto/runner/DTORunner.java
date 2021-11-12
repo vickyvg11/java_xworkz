@@ -2,6 +2,7 @@ package com.xworkz.dto.runner;
 
 import com.xworkz.dto.Bluetooth;
 import com.xworkz.dto.Cement;
+import com.xworkz.dto.ChargerDTO;
 import com.xworkz.dto.DishDTO;
 import com.xworkz.dto.SolarDto;
 import com.xworkz.dto.StatueDTO;
@@ -80,6 +81,16 @@ public class DTORunner {
 		System.out.println(dishDTO.getBrand().concat(" ").concat(dishDTO.getColor()).concat(" ").concat(String.valueOf(dishDTO.getPrice()).concat(" ")).concat(String.valueOf(dishDTO.getNoOfChannels()).concat(" ")));
 		
 		
+		
+		ChargerDTO dto = new ChargerDTO();
+		dto.setName("Poco");
+		dto.setType("Type C");
+		dto.setInput(200);
+		dto.setOutput(2);
+		dto.setContryMade("India");
+		
+		
+		System.out.println(dto.getName().concat(" ").concat(dto.getType()).concat(" ").concat(String.valueOf(dto.getInput())).concat(" ").concat(String.valueOf(dto.getOutput())).concat(" ").concat(dto.getContryMade()));
 	}
 	
 	

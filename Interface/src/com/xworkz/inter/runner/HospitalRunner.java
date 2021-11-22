@@ -8,7 +8,7 @@ public class HospitalRunner {
 
 		
 		
-		HospitalClass hospitalClass = new HospitalClass();
+		HospitalClass hospitalClass = new HospitalClass(); //object 
 		
 		String str=hospitalClass.register();
 		double str1=hospitalClass.payAdvance();
